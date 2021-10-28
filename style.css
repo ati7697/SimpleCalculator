@@ -1,0 +1,73 @@
+body{
+}
+.container{
+    margin: 30px auto;
+    display: block;
+}
+h1{
+    text-align: center;
+}
+
+.calculator{
+    width: 350px;
+    height: auto;
+    border: 1px solid white;
+    background-color:black;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+.result{
+    padding-right: 10px;
+    height: auto;
+    text-align: right;
+}
+.history{
+    text-align: right;
+    margin: 10px 5px;
+    color: gray;
+    font-size: 20px;
+
+
+}
+
+#history{
+    height: auto;
+    text-align: left;
+}
+.output{
+    font-size: 40px;
+    color: white;
+    margin: 10px 20px 30px;
+    text-align: right;
+}
+.keyboard{
+    margin-top: 30px;
+    height: auto;
+}
+.operator, .number, .show_history{
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    border-radius: 50%;
+    border-width: 0;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:nth-child(4n){
+    background-color: orange;
+}
+
+
+
+button:nth-child(21){
+    border-radius: 45px;
+    margin-right: 10px;
+    width: 90%;
+    background-color: orange;
+}
+
+.operator:active, .number:active{
+    font-size: 12px;
+}
